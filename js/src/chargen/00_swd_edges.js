@@ -1462,7 +1462,7 @@ chargen_edges = chargen_edges.concat(Array(
 			skills: Array(
 				{
 					name: "Repair",
-					required: 3
+					required: 2
 				},
 				{
 					name: "Notice",
