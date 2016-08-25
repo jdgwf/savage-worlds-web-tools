@@ -69,7 +69,7 @@ extraDatabase = extraDatabase.concat(Array(
 {
 		name: "Arc Beetle",
 		wildcard: 0,
-		image: "",
+		image: "https://upload.wikimedia.org/wikipedia/commons/7/77/Dytiscus_latissimus.jpg",
 		blurb: "Arc beetles are armored insects with a distinctive yellow and blue striped shell. Protruding from their forehead are two long antennae that crackle with bioelectrical energy and can throw bolts of electricity to a range of over 45 yards.",
 		attributes: {
 			agility: "d6",
