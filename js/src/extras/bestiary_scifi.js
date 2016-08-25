@@ -66,5 +66,49 @@ extraDatabase = extraDatabase.concat(Array(
 	}
 ));
 */
+{
+		name: "Arc Beetle",
+		wildcard: 0,
+		image: "",
+		blurb: "Arc beetles are armored insects with a distinctive yellow and blue striped shell. Protruding from their forehead are two long antennae that crackle with bioelectrical energy and can throw bolts of electricity to a range of over 45 yards.",
+		attributes: {
+			agility: "d6",
+			smarts: "d6(A)",
+			spirit: "d8",
+			strength: "d10",
+			vigor: "d8"
+		},
+		skills: {
+			'Climbing' : "d8", 
+			'Fighting' : "d6", 
+			'Notice'   : "d6",
+            'Shooting' : "d8"
+		},
+		charisma: "",
+		pace: "6",
+		parry: "5",
+		toughness: "11(3)",
+		armor: "2",
+		abilities: Array(
+			{
+				name: "Armor +3",
+				description: "Thick shell"
+			},
+			{
+				name: "Bite",
+				description: "Str+d4"
+			},
+			{
+				name: "Electricity ",
+				description: "Arc beetles fire bolts of electricity from their antennae. This works as the bolt power, and the beetle has 20 Power Points for this purpose only. It uses Shooting as its arcane skill"
+			},
+			{
+				name: "•Size +2",
+				description: "Arc beetles are over 6’ long and 4’ high."
+			}
+		),
+		book: currentBook,
 
+		page: "p75"
+	}
 ));
