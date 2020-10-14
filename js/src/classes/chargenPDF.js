@@ -97,11 +97,11 @@ chargenPDF.prototype.createBasicLandscapePDF = function () {
 		this.currentDoc.text(15, 21, "Super Powers of " + this.currentCharacter.getName() );
 		this.currentDoc.setFontStyle("normal");
 		if( this.currentCharacter.SPCRisingStars )
-			this.currentDoc.text(15, 26,  "• " + "Power Level " + this.currentCharacter.getgetSPCPowerLevels()()[ this.currentCharacter.getSPCSelectedPowerLevel() / 1].name + " (Rising Stars)" );
+			this.currentDoc.text(15, 26,  "• " + "Power Level " + this.currentCharacter.getSPCPowerLevels()[ this.currentCharacter.getSPCSelectedPowerLevel() / 1].name + " (Rising Stars)" );
 		else
-			this.currentDoc.text(15, 26,  "• " + "Power Level " + this.currentCharacter.getgetSPCPowerLevels()()[ this.currentCharacter.getSPCSelectedPowerLevel() / 1].name );
+			this.currentDoc.text(15, 26,  "• " + "Power Level " + this.currentCharacter.getSPCPowerLevels()[ this.currentCharacter.getSPCSelectedPowerLevel() / 1].name );
 
-		this.currentDoc.text(15, 31,  "• " + "Available Points/Total Points: " + this.currentCharacter.getgetSPCCurrentPowerPoints()() + " / " + this.currentCharacter.getgetSPCStartingPowerPoints()() );
+		this.currentDoc.text(15, 31,  "• " + "Available Points/Total Points: " + this.currentCharacter.getSPCCurrentPowerPoints() + " / " + this.currentCharacter.getSPCStartingPowerPoints() );
 		//this.currentDoc.lines([[0,0],[105,0]], 40, 31);
 
 
