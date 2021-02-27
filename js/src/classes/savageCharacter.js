@@ -3022,7 +3022,9 @@ function savageCharacter (useLang) {
                 //      console.log(_selectedHandWeapons[gCount]);
                     html += "Damage:  " + _selectedHandWeapons[gCount].displayDamage.toString();
                     if( _selectedHandWeapons[gCount].reach > 0 )
-                        html += ", Reach:  " +  _selectedHandWeapons[gCount].reach;
+                        html += ", Reach:  " + _selectedHandWeapons[gCount]
+
+                            ;
                     if( _selectedHandWeapons[gCount].ap > 0 )
                         html += ", AP: " +  _selectedHandWeapons[gCount].ap;
                     html += " )";
@@ -3037,7 +3039,7 @@ function savageCharacter (useLang) {
                     html += " (";
                     //~ console.log(_selectedHandWeapons[gCount]);
                     html += "Damage:  " + _selectedRangedWeapons[gCount].displayDamage.toString();
-                    if( _selectedRangedWeapons[gCount].range > 0)
+                    if( _selectedRangedWeapons[gCount].range )
                         html += ", Range:  " +  _selectedRangedWeapons[gCount].range;
                     if( _selectedRangedWeapons[gCount].ap > 0 )
                         html += ", AP: " +  _selectedRangedWeapons[gCount].ap;

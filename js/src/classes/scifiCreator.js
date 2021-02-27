@@ -283,7 +283,11 @@ scifiCreator.prototype.createStatesBlock = function() {
 
 scifiCreator.prototype.makeWeaponStatHTML = function( weapon_object ) {
     var return_val = " (";
-    return_val += weapon_object.range + ", ";
+    return_val += weapon_object
+
+
+
+        + ", ";
     return_val += weapon_object.damage;
 
     if( weapon_object.count >= 4)
