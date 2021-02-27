@@ -5847,7 +5847,7 @@ function savageCharacter (useLang) {
                     //~ console.log(_selectedHandWeapons[gCount]);
                     html += "Damage:  " + _selectedRangedWeapons[gCount].displayDamage.toString();
                     if( _selectedRangedWeapons[gCount].range > 0 )
-                        html += ", Range:  " +  _selectedRangedWeapons[gCount].displayRangetoString(); // was .reach
+                        html += ", Range:  " +  _selectedRangedWeapons[gCount].displayRange.toString(); // was .reach
                     if( _selectedRangedWeapons[gCount].ap > 0 )
                         html += ", AP: " +  _selectedRangedWeapons[gCount].ap;
                     if( _selectedRangedWeapons[gCount].rof > 0 )
