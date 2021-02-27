@@ -2581,7 +2581,8 @@ function savageCharacter (useLang) {
                     if( _selectedHandWeapons[ gearCounter ].currentParry > 0 )
                         _selectedHandWeapons[ gearCounter ].currentParry = 0;
 
-                    _selectedHandWeapons[ gearCounter ].displayDamage = _displayAttributes.strength.local_label + " + " +  damageBit;
+                    _selectedHandWeapons[gearCounter].
+                        = _displayAttributes.strength.local_label + " + " + damageBit;
                 } else {
                     _selectedHandWeapons[ gearCounter ].displayDamage = _selectedHandWeapons[ gearCounter ].localDamage;
                     _selectedHandWeapons[ gearCounter ].toHitRollModifier = -1;
@@ -3037,7 +3038,7 @@ function savageCharacter (useLang) {
                     //~ console.log(_selectedHandWeapons[gCount]);
                     html += "Damage:  " + _selectedRangedWeapons[gCount].displayDamage.toString();
                     if( _selectedRangedWeapons[gCount].range )
-                        html += ", Range:  " +  _selectedRangedWeapons[gCount].reach;
+                        html += ", Range:  " +  _selectedRangedWeapons[gCount].range;
                     if( _selectedRangedWeapons[gCount].ap > 0 )
                         html += ", AP: " +  _selectedRangedWeapons[gCount].ap;
                     if( _selectedRangedWeapons[gCount].rof > 0 )
