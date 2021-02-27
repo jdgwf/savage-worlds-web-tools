@@ -485,7 +485,7 @@ var savageWorldsGearRangedWeapons = Array(
 		 'class': 0,
 		 'general': 3,
 		 'type': 7,
-		 'range': '12/24/48',
+		 'range': 24,
 		 'damage': 'd6',
 		 'damage_strength': 0,
 		 'ap_vs_rigid_only': 0,
